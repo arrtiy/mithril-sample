@@ -1,0 +1,26 @@
+{
+  "name": "devmithril",
+  "version": "1.0.0",
+  "description": "",
+  "main": "t.js",
+  "scripts": {
+    "start": "webpack src/index.js bin/app.js -d --watch",
+    "build": "webpack --config webpack.production.config.js -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "resolve": {
+    "modules": [
+      ".",
+      "node_modules"
+    ]
+  },
+  "dependencies": {
+    "mithril": "^2.0.4"
+  }
+}
