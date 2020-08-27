@@ -5,8 +5,8 @@ var UserList = require("./views/UserList")
 var UserForm = require("./views/UserForm")
 var Layout = require("./views/Layout")
 
-m.route(document.body, "/list", {
-    "/list": {
+m.route(document.body, "/listw", {
+    "/listw": {
         render: function() {
             return m(Layout, m(UserList))
         }
